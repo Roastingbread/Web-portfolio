@@ -1,0 +1,258 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  background-color: #0c090a;
+  color: #fbfbf9;
+  padding: 20px;
+}
+header h1 {
+  padding: 0;
+  margin: 0;
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+  font-size: 400%;
+}
+nav ul li {
+  display: inline;
+  margin-right: 30px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #fbfbf9;
+  margin-left: 20px;
+  font-size: 20px;
+  position: relative;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 11%;
+  background-color: #3d2b1f;
+}
+footer h1 {
+  color: white;
+  margin: 0;
+}
+footer ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+footer li {
+  list-style: none;
+  text-decoration: none;
+}
+.Section-background-container {
+  font-family: "Bebas Neue";
+  text-transform: uppercase;
+  font-size: 1820%;
+  color: #e7e5e5;
+  height: 93%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-image: url("https://img1.wsimg.com/isteam/ip/9823cc75-e414-4f2c-a90b-3d89a05fec57/utube%20banner.jpg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:1280,h:720");
+  background-size: cover;
+}
+.background-opacity-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.Section-text-container {
+  height: 100%;
+  background-color: #0a0a0a;
+  color: white;
+}
+.Position-content {
+  padding: 130px;
+  height: 500px;
+}
+.Text-container {
+  width: 50%;
+}
+.Position-content h2 {
+  margin: 0;
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+  font-size: 350%;
+}
+.Position-content p {
+  margin: 0;
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+  font-size: 150%;
+}
+
+.header-link-container {
+  display: flex;
+  justify-content: flex-end;
+}
+/* Effect 3: bottom line slides/fades in */
+.cl-effect-3 a {
+  padding: 8px 0;
+}
+
+.cl-effect-3 a::after {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: #fb0019;
+  content: "";
+  opacity: 0;
+  -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+  -moz-transition: opacity 0.3s, -moz-transform 0.3s;
+  transition: opacity 0.3s, transform 0.3s;
+  -webkit-transform: translateY(10px);
+  -moz-transform: translateY(10px);
+  transform: translateY(10px);
+}
+
+.cl-effect-3 a:hover::after,
+.cl-effect-3 a:focus::after {
+  opacity: 1;
+  -webkit-transform: translateY(0px);
+  -moz-transform: translateY(0px);
+  transform: translateY(0px);
+}
+.profile-picture-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+.profile-picture-wrapper {
+  overflow: hidden;
+  border-radius: 50%;
+  background-color: white;
+  aspect-ratio: 1 / 1;
+  width: 50%;
+}
+.profile-picture-wrapper img {
+  width: 100%;
+  height: 100%;
+}
+
+.section-about-me {
+  display: flex;
+  width: 100%;
+  padding: 200px 10px;
+}
+.certificate-background-container {
+  height: 100%;
+  background-color: #0a0a0a;
+  color: white;
+}
+.certificate-section-me {
+  display: flex;
+  width: 100%;
+  padding: 200px 10px;
+}
+.certificate-picture-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+.certificate-picture-wrapper {
+  overflow: hidden;
+  border-radius: 15%;
+  background-color: white;
+  aspect-ratio: 1 / 1;
+  width: 60%;
+}
+.certificate-picture-wrapper img {
+  width: 100%;
+  height: 100%;
+}
+.certificate-text-container {
+  background-color: #0a0a0a;
+  width: 100%;
+}
+.certificate-position-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fbfbf9;
+  padding: 50px;
+}
+.certificate-position-content h2 {
+  margin: 0;
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+  font-size: 400%;
+}
+.second-certificate-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+.second-certificate-wrapper {
+  overflow: hidden;
+  border-radius: 15%;
+  background-color: white;
+  aspect-ratio: 1 / 1;
+  width: 60%;
+}
+.second-certificate-wrapper img {
+  width: 100%;
+  height: 100%;
+}
+.social-text-container {
+  background-color: #0a0a0a;
+  width: 100%;
+}
+.social-position-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fbfbf9;
+  padding: 50px;
+}
+.social-position-content h2 {
+  margin: 0;
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+  font-size: 400%;
+}
+.second-certificate-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+.footer-text-container {
+  padding: 0 650px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.footer-logo-container img {
+  height: 50px;
+}
+.second-logo-container img {
+  height: 50px;
+}
+.third-logo-container img {
+  height: 50px;
+}
+.fourth-logo-container img {
+  height: 50px;
+}
+.header-container {
+  position: fixed;
+  width: 100%;
+}
